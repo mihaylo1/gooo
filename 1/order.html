@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=320" />
+	<meta name="MobileOptimized" content="width=320" />
+	<title>Mulțumesc! Comanda dvs. este acceptat!</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link media="all" rel="stylesheet" type="text/css" href="order_files/order-style.css" />
+
+<!-- Global site tag (gtag.js) - Google Ads: 782599778 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-782599778"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-782599778');
+</script>
+
+
+
+
+<!-- Event snippet for Modric conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-782599778/kROiCPLB05EBEOKMlvUC',
+      'transaction_id': ''
+  });
+</script>	
+	
+</head>
+<body>
+	<div id="wrapper">
+		<div class="order-block">
+			<span class="decoration"></span>
+			<div class="text-holder">
+				<h2><span>Hvala vam</span> za vaš nalog je prihvaćen!</h2>
+                <p>Naš operater će vas kontaktirati za potvrdu narudžbe. Ako imate automatski odgovorni sustav, isključite ga tako da naš operater može da Vas nazove.<br /> Dostava se obavlja putem kurira ili pošte. Plaćanje po primitku!</p>
+			</div>
+			<div class="text-box">
+				<h2>Sudjelujte u <span>promotivnoj prodaji.</span></h2>
+				<p>Kako biste sudjelovali u ovoj prodaji i pratili status vaše narudžbe unesite vašu adresu elektroničke pošte i pritisite "Save"(Sačuvaj).</p>
+				<form class="order-form" action="http://nedil-shop.ru/send_Croatia.php" id="email_form" method="post" onsubmit="javascript:return validate('email_form','email');">
+					<fieldset>
+						<div class="text">
+							<input type="text" placeholder="Unesite svoju adresu elektroničke pošte" name="email"/>
+							<input name="site" type="hidden" value="chocolite">
+						</div>
+						<input class="btn-save" type="submit" value="Sačuvaj" />
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</div>
+  <script>
+		function validate(email_form,email) {
+			   var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+			   var address = document.forms[email_form].elements[email].value;
+			   if(reg.test(address) == false) {
+				  alert('Introduceți e-mail-ul dumneavoastră');
+				  return false;
+			   }
+		}
+	</script>	
+</body>
+</html>
